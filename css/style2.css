@@ -1,0 +1,203 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  background: #fff;
+  color: #5C5C5C;
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #222; }
+
+section {
+  padding: 120px 0 100px; }
+
+.hero-btn {
+  padding: 8px 28px;
+  padding: 6px 42px;
+  box-shadow: 0 2px 15px 0 rgba(60, 60, 60, 0.5);
+  font-weight: 600; }
+
+.hero-btn:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17); }
+
+.h2-herbaly {
+  font-size: 2.2rem !important;
+  color: #32A265;
+  letter-spacing: 1px;
+  text-align: center; }
+
+.navbar {
+  box-shadow: 1px 1px 7px #B0B0B0;
+  opacity: 0.8;
+  background: #fff; }
+  .navbar .nav-link {
+    color: #212B35; }
+  .navbar .nav-link:hover {
+    color: #32a265 !important; }
+
+#hero-section {
+  background: url(../images/woman-tea.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 700px;
+  min-height: 80vh; }
+  #hero-section .hero-img {
+    margin-bottom: 30px; }
+  #hero-section .hero-text {
+    margin-top: 14rem; }
+    #hero-section .hero-text .hero-title {
+      color: #222;
+      line-height: 1.3;
+      padding: 0 5px;
+      font-size: 2rem;
+      margin-bottom: 3rem; }
+    @media screen and (min-width: 768px) {
+      #hero-section .hero-text .hero-title {
+        padding: 0 16px;
+        font-size: 2.5rem; } }
+    @media screen and (min-width: 1024px) {
+      #hero-section .hero-text .hero-title {
+        padding: 0;
+        font-size: 2rem; } }
+
+.collection {
+  padding: 120px 0 100px;
+  background: url(../images/tea-herbs.png) no-repeat;
+  position: relative;
+  background-position: 30% 208%; }
+  .collection .collection-h2 {
+    color: #32A265; }
+  @media screen and (min-width: 768px) {
+    .collection {
+      background-position: -130% 116%; }
+      .collection h2 {
+        font-size: 1.6rem; }
+      .collection .collection-ext {
+        padding-right: 0px; } }
+  @media screen and (min-width: 768px) {
+    .collection {
+      background-position: 360px 370px; } }
+  @media screen and (min-width: 1024px) {
+    .collection {
+      background-position: 400px 370px; } }
+  @media screen and (min-width: 1250px) {
+    .collection {
+      background-position: 200% 100%; } }
+  @media screen and (min-width: 1500px) {
+    .collection {
+      background-position: 175% 100%; } }
+  @media screen and (min-width: 1600px) {
+    .collection {
+      background-position: 160% 100%; } }
+  @media screen and (min-width: 1800px) {
+    .collection {
+      background-position: 140% 100%; } }
+  @media screen and (min-width: 2000px) {
+    .collection {
+      background-position: 130% 120%; } }
+  @media screen and (min-width: 2000px) {
+    .collection {
+      background-position: 110% 120%; } }
+  .collection h2 {
+    margin-bottom: 30px;
+    font-size: 1.4rem; }
+  .collection .fa {
+    margin-right: 20px; }
+  .collection .collection-box {
+    margin-bottom: 60px;
+    padding: 50px 20px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0 3px 15px 0 #B3B3B3;
+    border-radius: 10px; }
+    .collection .collection-box .collection-point {
+      margin-bottom: 15px; }
+      .collection .collection-box .collection-point .collection-check {
+        margin-right: 15px; }
+  @media screen and (min-width: 768px) {
+    .collection .collection-box {
+      margin-top: 140px; } }
+  .collection .collection-text {
+    font-weight: 400; }
+  .collection .collection-bg {
+    margin-bottom: 50px; }
+
+section.supply {
+  background-color: #F9F9F8; }
+  section.supply .supply-img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 50px; }
+  section.supply .supply-info {
+    margin-top: 80px; }
+  section.supply .supply-text {
+    font-size: 1.2rem;
+    padding: 0 30px;
+    margin-top: 12px;
+    font-weight: 700; }
+  section.supply .h2-gray {
+    font-size: 1.7rem;
+    color: #828282;
+    margin: 35px 0 25px; }
+  section.supply .h3-gray {
+    color: #828282;
+    font-size: 1.1rem;
+    letter-spacing: -0.5px;
+    margin-top: 30px; }
+  section.supply .h3-gray:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 235px;
+    border-bottom: 2px solid #828282;
+    padding-top: 8px; }
+  @media screen and (min-width: 1024px) {
+    section.supply .supply-text {
+      font-size: 1.2rem;
+      padding: 0 105px;
+      margin-top: 16px; } }
+  @media screen and (min-width: 768px) {
+    section.supply .supply-img {
+      margin-top: 0; } }
+
+#benefits .benefits-herbs {
+  width: 55%; }
+
+#benefits .benefits-title {
+  margin: 30px 0 20px; }
+
+#benefits .benefits-text {
+  font-size: 1.3rem;
+  margin-bottom: 50px; }
+
+#benefits .herbaly-h4 {
+  margin-bottom: 100px; }
+
+@media screen and (min-width: 769px) {
+  #benefits .benefits-text {
+    font-size: 1.3rem;
+    padding: 0 30px; } }
+
+#benefits .herbaly-h4 {
+  margin-top: 15px;
+  font-size: 1.4rem; }
+
+section.customers {
+  background-color: #F9F9F8; }
+  section.customers .customers-title {
+    margin-bottom: 120px; }
+  section.customers .customer-box {
+    background-color: #fff;
+    box-shadow: 0 3px 15px 0 rgba(148, 148, 148, 0.5);
+    border-radius: 4px;
+    padding: 0 8px 10px; }
+  section.customers .customer-img {
+    position: relative;
+    top: -50px; }
+  section.customers .customer-text {
+    position: relative;
+    top: -20px;
+    padding: 0 15px; }

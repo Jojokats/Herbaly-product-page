@@ -1,0 +1,605 @@
+// Main Sass File
+$font-color: #424242;
+$title-color: #222;
+$cta-color: #1D52FE;
+$bg-color: #E5E5E5;
+$backgr-color: #fff;
+$gray-light: #B0B0B0;
+$nav-link: #212B35;
+$green: #32A265;
+$lime: #75B917;
+$blue: #4a90e2;
+
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: $backgr-color;
+    color: $font-color;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: $title-color;
+}
+.h2-title {
+  line-height: 1.4;
+}
+
+section {
+  padding: 120px 0 100px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.hero-btn {
+  padding: 6px 28px;
+  padding: 6px 42px;
+  // margin-top: 2rem;
+  box-shadow: 0 2px 15px 0 rgba(60,60,60,0.50);
+  font-weight: 600;
+}
+
+.hero-btn-sub {
+  padding: 6px 28px;
+
+  // margin-top: 2rem;
+  box-shadow: 0 2px 15px 0 rgba(60,60,60,0.50);
+  font-weight: 600;
+}
+
+.hero-btn:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  // box-shadow: 0 5px 15px 0 rgba(60,60,60,0.50);
+}
+
+.hero-btn-sub:hover {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  // box-shadow: 0 5px 15px 0 rgba(60,60,60,0.50);
+}
+
+// .h2-herbaly {
+//   font-size: 2.2rem!important;
+//   color: #32A265;
+//   letter-spacing: 1px;
+//   text-align: center;
+// }
+
+
+
+
+
+// ***** SECTION  ORGANIC *****
+#health {
+  padding-bottom: 0;
+  .h2-title {
+    margin-bottom: 20px;
+    font-size: 2.2rem!important;
+  }
+
+  .organic-text {
+    margin-top: 50px;
+  }
+
+  .organic-text-title {
+    color: $blue;
+    font-weight: bold;
+  }
+
+  .organic-text p:nth-child(2) {
+    margin-bottom: 45px;
+  }
+  .icons-img,
+  .icons-info {
+      padding-right: 0;
+  }
+
+  .icons-info {
+    margin-top: 15px;
+
+  }
+
+  @media screen and (min-width: 768px) {
+    .organic-text {
+      padding-left: 50px;
+      margin-top: 0;
+    }
+    .organic-leaf {
+      margin-bottom: 50px;
+    }
+    .orgainc-text-para {
+      font-size: 1.3rem;
+    }
+    .img-tulsi {
+      position: relative;
+      left: 120px;
+      bottom: 60px;
+    }
+  }
+
+
+
+}// End Organic Section
+
+
+// ***** SECTION  HERO-2 *****
+#hero-section-2 {
+    background: url(../images/tea-dark-lg.jpg) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    max-width: 100%;
+    min-height: 90vh;
+
+    .hero-title-2 {
+      color: #fff;
+      margin-top: 150px;
+      line-height: 1.5;
+    }
+
+    .hero-text-2 {
+      color: #fff;
+    }
+
+    @media screen and (min-width: 768px) {
+      .hero-title-2 {
+        padding: 0 0 0 80px;
+      }
+
+      .hero-text-2 {
+        padding-left: 80px;
+        margin-top: 30px;
+      }
+    }
+  }
+
+// ***** SECTION  SUPPLY *****
+section.supply {
+  padding: 0;
+  background-color: #F9F9F8;
+  .supply-img {
+    display: block;
+    margin:auto;
+    // width: 60%;
+  }
+
+  // .supply-img {
+  //   background-image: url(../images/tea-design-sm.jpg) no-repeat;
+  //   background: url(../images/tea-herbs.jpg);
+  //   background-size: cover;
+  //   background-position: center;
+  //   max-width: 100%;
+  //   height: 100%;
+  //   background-color: green;
+  //   height: 50vh;
+  // }
+
+  .supply-info {
+    margin-top: 80px;
+
+  }
+
+  .supply-text {
+    font-size: 1.2rem;
+    padding: 0 30px;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .h2-gray {
+    font-size: 1.3rem;
+    color: #828282;
+    margin: 50px 0 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .supply-text {
+      padding: 0;
+    }
+
+    .h2-gray {
+      margin: 20px 0 25px;
+    }
+
+    .supply-info {
+      margin-top: 45px;
+    }
+  }
+
+  .h3-gray {
+    color: #75B917;
+    font-size: 1rem;
+    letter-spacing: -0.5px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+  .h3-gray:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    // width: 44%;
+    width: 216px;
+    border-bottom: 2px solid #75B917;
+    padding-top: 8px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .h3-gray {
+      margin-bottom: 0;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .supply-text {
+      font-size: 1.2rem;
+      // padding:  0 115px;
+      margin-top: 16px;
+    }
+
+    .supply-info {
+      margin-top: 135px;
+
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .supply-info {
+      margin-top: 145px;
+    }
+    .h2-gray {
+      margin: 100px 0 25px;
+    }
+  }
+
+
+
+  @media screen and (min-width: 768px) {
+
+    .supply-img {
+      margin-top: 0;
+    }
+  }
+}// End Supply
+
+
+// ***** BENEFITS SECTION *****
+#benefits {
+  padding: 0;
+
+  .benefits-first {
+    margin-top: -100px;
+  }
+
+  .benefits-herbs {
+    width: 55%;
+  }
+
+  .benefits-title {
+    margin: 30px 0 20px;
+  }
+
+  .benefits-text {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+  }
+
+  .herbaly-h4 {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 769px) {
+
+    .benefits-text {
+      font-size: 1.3rem;
+      padding: 0 30px;
+    }
+  }
+
+  .herbaly-h4 {
+      margin-top: 15px;
+      font-size: 1.4rem;
+  }
+
+}
+
+// ***** PRODUCTS SECTION
+
+#products {
+  // padding-bottom: 0;
+
+  @media screen and (min-width: 768px) {
+    .product-icons {
+      margin-top: 20px;
+      width: 70%;
+    }
+  }
+}
+
+#display {
+  // padding-top: 0;
+  background: url(../images/arrangement-lg.png) no-repeat;
+  background-size: cover;
+  background-position: top center;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+#facts {
+  .facts-img {
+    margin-top:  40px;
+  }
+}
+
+// ***** HERO SECTION *****
+#hero-section {
+    background: url(../images/section-minute.png) no-repeat;
+    background-size: cover;
+    background-position: top center;
+    max-width: 100%;
+    min-height: 100vh;
+
+    .blue-overlay {
+      // background-image: linear-gradient(-102deg, #00124A 0%, #53A0FD 49%, #F69624 89%);
+      // min-height: 80vh;
+      // background: rgba(33,37,52,1);
+      // background: -moz-linear-gradient(45deg, rgba(33,37,52,.6) 0%, rgba(83,160,253,.6) 51%, rgba(246,150,36,.6) 100%);
+      // background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(33,37,52,.6)), color-stop(51%, rgba(83,160,253,.6)), color-stop(100%, rgba(246,150,36,.6)));
+      // background: -webkit-linear-gradient(45deg, rgba(33,37,52,.6) 0%, rgba(83,160,253,.6) 51%, rgba(246,150,36,.6) 100%);
+      // background: -o-linear-gradient(45deg, rgba(33,37,52,.6) 0%, rgba(83,160,253,.6) 51%, rgba(246,150,36,.6) 100%);
+      // background: -ms-linear-gradient(45deg, rgba(33,37,52,.6) 0%, rgba(83,160,253,.6) 51%, rgba(246,150,36,.6) 100%);
+      // background: linear-gradient(45deg, rgba(33,37,52,.6) 0%, rgba(83,160,253,.6) 51%, rgba(246,150,36,.6) 100%).6;
+      // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212534', endColorstr='#f69624', GradientType=1 );
+    }
+
+    .hero-img {
+        margin-bottom: 30px;
+    }
+    .hero-text {
+        margin-top: 16rem;
+        .hero-title {
+          line-height: 1.3;
+          padding: 0 5px;
+          font-size: 1.5rem;
+          margin-bottom: 3rem;
+          padding-top: 50px;
+        }
+
+        @media screen and (min-width: 768px) {
+
+          .hero-text {
+            margin-top: 14rem;
+          }
+          .hero-title {
+            // padding: 0 16px;
+            font-size: 1.9rem;
+          }
+        }
+        @media screen and (min-width: 1024px) {
+          .hero-title {
+            padding: 0;
+            font-size: 2rem;
+          }
+        }
+    }
+}// End Hero SECTION
+
+
+
+
+
+
+// *****************
+
+section.customers {
+    background-color: #F9F9F8;
+
+    .customers-title {
+      margin-bottom: 120px;
+    }
+
+    .customer-box {
+      background-color: #fff;
+      box-shadow: 0 3px 15px 0 rgba(148,148,148,0.50);
+      border-radius: 4px;
+      padding: 0 8px 10px;
+      margin-bottom: 90px;
+    }
+
+    @media screen and (min-width: 769px) {
+      .customer-box {
+        margin-bottom: 0;
+      }
+
+    }
+
+    .customer-img {
+      position: relative;
+      top: -50px;
+      -webkit-box-shadow: 0px 3px 25px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 3px 25px 0px rgba(153,153,153,1);
+box-shadow: 0px 3px 25px 0px rgba(153,153,153,1);
+    }
+
+    .customer-text {
+      position: relative;
+      top: -20px;
+      padding: 0 15px;
+    }
+}
+
+//***** INGREDIENTS *****
+#ingredients {
+  background: url(../images/teacup-tulsi.jpg) no-repeat;
+  background-position: center;
+
+  .organic-section {
+    margin-bottom: 5px;
+  }
+
+  .organic-title {
+    margin-top: 10px;
+  }
+
+  .organic-text {
+    margin: 20px 0 40px;
+  }
+
+  .organic-satisfaction {
+    width: 40%;
+  }
+
+  .organic-text-2 {
+      margin-top: 50px;
+  }
+
+  .organic-nutrition {
+    width: 80%;
+    // -webkit-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+    // -moz-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+    // box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+  }
+
+
+    @media screen and (min-width: 769px) {
+      .organic-section {
+        margin-bottom: 50px;
+      }
+
+      .organic-text {
+        padding: 0 50px;
+      }
+      .organic-section-satisfaction {
+        padding: 0 80px 0 20px;
+      }
+
+      .organic-text-2 {
+          // padding: 0 80px 0 20px;
+          margin-top: 70px;
+      }
+      .organic-text-2 span {
+        color: $green;
+        font-weight: 600;
+      }
+
+      .organic-satisfaction {
+        margin-top: 30px;
+        -webkit-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+      }
+
+      .organic-nutrition {
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+-moz-box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+box-shadow: 0px 10px 35px 0px rgba(153,153,153,1);
+      }
+    }
+}
+
+// ***** SECTION WELLNESS *****
+
+.wellness {
+
+  .wellness-text {
+    margin-bottom: 10px;
+  }
+
+  .fee {
+    font-size: .8rem;
+    margin-bottom: 40px;
+  }
+
+  .red {
+    color: #FF4324;
+  }
+
+  .wellness-best {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    line-height: 1.5;
+  }
+
+  .package{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+  }
+
+  .package-3 {
+    box-shadow: 0 3px 15px 0 rgba(0, 112, 255, 0.8);
+  }
+
+  .wellness-title {
+    margin-bottom: 60px;
+  }
+
+  .wellness-img {
+    padding-top: 6px;
+    width: 30%;
+  }
+
+  .wellness-img-2 {
+    width: 46%;
+  }
+
+  .wellness-img-3 {
+    width: 65%;
+  }
+
+  .package-title {
+    margin: 60px 0 30px;
+  }
+
+  .package-brands {
+    margin-bottom: 80px;
+  }
+
+  .package-price {
+    font-size: 1.6rem;
+    margin-top: 40px;
+    margin-bottom: 0px!important;
+    font-weight: 600;
+  }
+
+  .package-ship {
+    font-size: .8rem;
+  }
+
+  .package-purchase {
+    margin-top: 16px;
+  }
+
+  .subscription {
+    margin-bottom: 40px;
+  }
+
+  .package-first {
+    margin-bottom: 185px;
+  }
+
+}
+
+.footer {
+  background-color: #252324;
+
+  .footer-title {
+    padding: 50px 0;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+}
